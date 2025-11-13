@@ -1,0 +1,85 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e6d9f2;
+  color: #3d186b;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #b58edc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border-radius: 0 0 20px 20px;
+}
+
+.logo {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: white;
+}
+
+nav button {
+  background-color: #a46ddf;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 8px 18px;
+  font-size: 1em;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+nav button:hover {
+  background-color: #8e4fd6;
+}
+
+/* Conteúdo principal */
+main {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.caixa {
+  background-color: #c6a5ec;
+  padding: 25px 40px;
+  border-radius: 20px;
+  width: 700px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.caixa h2 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Ícones */
+.icones {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+.icone {
+  font-size: 3.5em;
+  color: #8e4fd6;
+  margin-bottom: 5px;
+}
+
+.item p {
+  font-weight: bold;
+  color: #4b208b;
+  margin: 0;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>WebLi - Página Inicial</title>
+  <link rel="stylesheet" href="principal.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🌿 WebLi</div>
+    <nav>
+      <button id="btnInicio">🏠 Início</button>
+      <button id="btnCadastro">📝 Cadastre-se</button>
+      <button id="btnLogin">👤 Login</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="caixa">
+      <h2>Bem-vindo(a) à WebLi!</h2>
+      <p>Aprender Libras nunca foi tão fácil! Explore nosso conteúdo interativo, teste seus conhecimentos e descubra novas formas de comunicação.</p>
+      <ul>
+        <li>🎬 Assista videoaulas exclusivas com exemplos práticos.</li>
+        <li>📘 Acesse informações completas e curiosidades sobre Libras.</li>
+        <li>🧩 Faça exercícios e veja seu progresso em tempo real.</li>
+      </ul>
+    </section>
+
+    <div class="icones">
+      <div class="item">
+        <div class="icone">▶️</div>
+        <p>Videoaulas</p>
+      </div>
+      <div class="item">
+        <div class="icone">📖</div>
+        <p>Informações</p>
+      </div>
+      <div class="item">
+        <div class="icone">📝</div>
+        <p>Exercícios</p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById("btnInicio").addEventListener("click", function() {
+      window.location.href = "inicio.html";
+    });
+    document.getElementById("btnCadastro").addEventListener("click", function() {
+      window.location.href = "cadastro.html";
+    });
+    document.getElementById("btnLogin").addEventListener("click", function() {
+      window.location.href = "login.html";
+    });
+  </script>
+</body>
+</html>

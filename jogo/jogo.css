@@ -1,0 +1,67 @@
+body {
+  background: #f7ecff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.site-header {
+  background: #c8a4f7;
+  color: white;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.score-container {
+  margin: 20px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background: #e7d4fb;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 0 #a573d1;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-false {
+  background: #ff6666;
+  color: white;
+}
+
+.btn-true {
+  background: #59c45a;
+  color: white;
+}
+
+.card.correct {
+  border: 3px solid green;
+}
+
+.card.wrong {
+  border: 3px solid red;
+}

@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b59cd7; /* Fundo lilás claro */
+  margin: 0;
+  padding: 0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #a076d6; /* Caixa lilás médio */
+  width: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+h2 {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Campos lado a lado */
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  text-align: left;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 15px;
+  width: 100%;
+  outline: none;
+  color: #333;
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+small {
+  color: black;
+  font-style: italic;
+  font-size: 13px;
+  display: block;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #6a40b8; /* Roxo escuro */
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  font-style: italic;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #7d52ca;
+ background-color: #7d52ca;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;      
+  margin-bottom: 40px; 
+}
+

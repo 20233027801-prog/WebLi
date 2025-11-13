@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jogo — Verdadeiro ou Falso</title>
+  <link rel="stylesheet" href="jogo.css">
+</head>
+<body>
+  <div id="confetti-container"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">QUIZ</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="score-container">
+      <h2>Pontuação: <span id="score">0/8</span></h2>
+    </div>
+
+    <section class="cards-section">
+      <div class="cards-grid">
+
+        <article class="card" data-answer="verdadeiro">
+          <h3>A Libras é reconhecida oficialmente no Brasil.</h3>
+          <div class="card-actions">
+            <button class="btn btn-false">FALSO</button>
+            <button class="btn btn-true">VERDADEIRO</button>
+          </div>
+        </article>
+
+        <article class="card" data-answer="falso">
+          <h3>Libras é apenas uma forma gestual da língua portuguesa.</h3>
+          <div class="card-actions">
+            <button class="btn btn-false">FALSO</button>
+            <button class="btn btn-true">VERDADEIRO</button>
+          </div>
+        </article>
+
+        <article class="card" data-answer="verdadeiro">
+          <h3>Intérpretes de Libras facilitam a comunicação entre surdos e ouvintes.</h3>
+          <div class="card-actions">
+            <button class="btn btn-false">FALSO</button>
+            <button class="btn btn-true">VERDADEIRO</button>
+          </div>
+        </article>
+
+        <article class="card" data-answer="falso">
+          <h3>O uso da Libras em escolas é proibido por lei.</h3>
+          <div class="card-actions">
+            <button class="btn btn-false">FALSO</button>
+            <button class="btn btn-true">VERDADEIRO</button>
+          </div>
+        </article>
+
+        <article class="card" data-answer="falso">
+          <h3>Ler lábios é o mesmo que entender Libras.</h3>
+          <div class="card-actions">
+            <button class="btn btn-false">FALSO</button>
+            <button class="btn btn-true">VERDADEIRO</button>
+          </div>
+        </article>
+
+        <article class="card" data-answer="verdadeiro">
+          <h3>Libras possui sua própria gramática e estrutura.</h3>
+          <div class="card-actions">
+            <button class="btn btn-false">FALSO</button>
+            <button class="btn btn-true">VERDADEIRO</button>
+          </div>
+        </article>
+
+        <article class="card" data-answer="falso">
+          <h3>Todas as pessoas surdas usam exatamente os mesmos sinais.</h3>
+          <div class="card-actions">
+            <button class="btn btn-false">FALSO</button>
+            <button class="btn btn-true">VERDADEIRO</button>
+          </div>
+        </article>
+
+        <article class="card" data-answer="verdadeiro">
+          <h3>A Libras é usada em contextos educacionais e profissionais.</h3>
+          <div class="card-actions">
+            <button class="btn btn-false">FALSO</button>
+            <button class="btn btn-true">VERDADEIRO</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="jogo.js"></script>
+</body>
+</html>
