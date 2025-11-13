@@ -1,0 +1,1 @@
+function irparalogin(){window.location.href ="loguin.html"}
