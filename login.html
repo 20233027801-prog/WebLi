@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Entrar na sua conta</h2>
+
+        <form id="loginForm" autocomplete="off">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Digite sua senha">
+
+            <button type="button" onclick="fazerLogin()">Entrar</button>
+
+            <p class="cadastro-link">
+                Ainda não tem conta? <a href="cadastro.html">Cadastrar</a>
+            </p>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
