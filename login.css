@@ -63,3 +63,15 @@ button:hover {
     font-weight: bold;
     text-decoration: none;
 }
+
+.login-link {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-link a {
+    color: #5b1e8d; /* roxinho igual ao do seu layout */
+    font-weight: bold;
+    text-decoration: none;
+}
